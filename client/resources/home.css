@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-column,
+.middle-column,
+.right-column {
+    padding: 20px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.left-column {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 300px;
+}
+
+
+
+
+.middle-column {
+    background: #ffffff;
+    border-left: 1px solid #e1e8ed;
+    border-right: 1px solid #e1e8ed;
+}
+
+.right-column {
+    background: #ffffff;
+}
+
+.left-column button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ffffff;
+    color: #1da1f2;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.left-column button i {
+    margin-right: 5px;
+}
+
+.post-section {
+    margin-bottom: 20px;
+}
+
+.post-section textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post-section button {
+    background: #1da1f2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.post {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+    margin-bottom: 20px;
+}
+
+.suggested-follows li {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.icon-placeholder {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.search-section {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e8ed;
+    border-radius: 20px;
+    font-size: 16px;
+}
