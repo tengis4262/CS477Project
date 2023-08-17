@@ -6,7 +6,9 @@ const Schema = mongoose.Schema;
 const postSchema = new Schema({
     user: {
         userId: ObjectId,
-        username: String
+        username: String,
+        firstname: String,
+        lastname: String,
     },
     text: String,
     like: {

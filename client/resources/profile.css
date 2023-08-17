@@ -1,0 +1,48 @@
+.profile-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.profile-form input,
+.profile-form textarea {
+    padding: 10px;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+}
+
+.profile-form button {
+    padding: 10px;
+    background-color: #1DA1F2; /* Twitter's primary color */
+    color: white;
+    border: none;
+    border-radius: 5px
+}
+#error {
+
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}

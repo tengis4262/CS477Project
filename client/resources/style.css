@@ -58,3 +58,11 @@ a:hover {
     padding: 0;
     display: inline-block;
 }
+
+.fab.fa-twitter {
+    font-size: 50px;
+    color: #1DA1F2;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
